@@ -1,0 +1,15 @@
+.barcode_main{
+    font-family: 'Open Sans';
+}
+
+.barcode_generated{
+    margin-bottom: 45px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.place_of_item{
+    margin-left: 73px;
+    font-size: 22px;
+    text-transform: uppercase;
+}

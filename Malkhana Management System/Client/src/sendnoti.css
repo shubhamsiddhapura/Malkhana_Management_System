@@ -1,0 +1,39 @@
+.send_notifications_main{
+    font-family: 'Open Sans';
+}
+
+.do_message{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.do_message_input{
+    border: 2px solid;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.senders{
+    display: flex;
+}
+
+.senders > div{
+    display: flex;
+}
+
+.senders > div > p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.jaa{
+    border: none;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px 27px;
+}

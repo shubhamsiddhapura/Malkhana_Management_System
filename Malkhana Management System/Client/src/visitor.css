@@ -1,0 +1,81 @@
+.create_entry_div{
+    display: flex;
+}
+
+.create_entry_div{
+    font-family: 'Open Sans';
+}
+
+.create_entry_div > p{
+    margin: 0px;
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.create_entry_div > input{
+    font-family: 'Open Sans';
+    width: 230px;
+    border: 2px solid;
+    padding: 5px 3px;
+    margin-left: 15px;
+}
+
+.create_entry_div > button{
+    font-family: 'Open Sans';
+}
+
+.touched{
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0px 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: black;
+    border: none;
+}
+
+.untouched{
+    border-radius: 5px;
+    padding: 0px 12px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #99f7a4;
+    border: none;
+    margin-left: 10px;
+}
+
+.touched_dd{
+    width: 120px !important;
+}
+
+.untouched_now{
+    margin-left: 130px;
+}
+
+.visitor_data > div{
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    margin-bottom: 5px;
+}
+
+.visitor_data{
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #7bf98033;
+    margin: 15px 5px;
+}
+
+.remove_visitor_button{
+    padding: 2px 15px;
+    margin-top: 12px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}

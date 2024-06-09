@@ -1,0 +1,75 @@
+.message{
+    text-transform: capitalize;
+    font-family: 'Open Sans';
+    position: relative;
+    padding: 12px 30px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: rgba(214, 214, 252, 0.774);
+}
+
+.message > div{
+    font-size: 13px;
+    right: 19px;
+    top: 6px;
+    font-weight: bold;
+    position: absolute;
+    color: #383333;
+    font-family: 'Open Sans';
+}
+
+.audit_notification{
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: rgba(214, 214, 252, 0.774);
+    border-radius: 10px;
+}
+
+.audit_notification > p{
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.audit_notification > div > img{
+    height: 150px;
+}
+
+.audit_notification > div > div > select{
+    margin-left: 30px;
+    border: 2px solid;
+    font-size: 16px;
+    font-family: 'Open Sans';
+    padding: 5px 2px;
+}
+
+.audit_content{
+    display: flex;
+}
+
+.answer_div > div > p{
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
+
+.answer_div > div{
+    margin-left: 30px;
+}
+
+.audit_input{
+    font-size: 16px;
+    padding: 4px 5px;
+    border: 2px solid;
+    font-family: 'Open Sans';
+}
+
+.audit_button{
+    font-family: 'Open Sans';
+    border: none;
+    color: white;
+    background: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px 13px;
+}

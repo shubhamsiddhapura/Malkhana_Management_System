@@ -1,0 +1,52 @@
+.logo > img{
+    height: 65px;
+    margin-right: 15px;
+}
+
+.logo{
+    text-align: center;
+    padding: 10px 25px;
+}
+
+.menu_item{
+    display: flex;
+}
+
+.ulta{
+    transform: translateY(-29%) rotateX(180deg) !important;
+}
+
+.map_sub > div > i, .add_sub > div > i{
+    padding-left: 20px;
+}
+
+.sidebar_main{
+    width: 16%;
+}
+
+.active{
+    border-left: 10px solid orange;
+    background-color: rgb(253, 212, 135);
+}
+
+.sub_active{
+    background-color: rgb(249 223 162 / 61%);
+}
+
+.menu_item{
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.menu_item > i{
+    transform: translateY(39%);
+    position: relative;
+}
+
+.menu_item > p{
+    min-width: 63px;
+    margin-left: 15px;
+    margin-right: 12px;
+}
