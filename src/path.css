@@ -1,0 +1,12 @@
+.page_name{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.page_path{
+    font-size: 13px;
+    font-weight: 500;
+    color: #5f5f5f;
+    margin-top: 4px;
+}

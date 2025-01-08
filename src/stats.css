@@ -1,0 +1,57 @@
+.stats_grid_container{
+    column-gap: 20px;
+    row-gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.stats_grid_container > div{
+    border-radius: 10px;
+    padding: 14px 18px;
+    background-color: rgb(247, 77, 77);
+}
+
+.stat_key{
+    margin-bottom: 15px;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.asa{
+    background-color: rgb(67 1 91) !important;
+}
+
+.bsb{
+    background-color: rgb(3 51 146) !important;
+}
+
+.stat_value{
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+#item_count, #vehicle_count, #top_cat, #audit, #wheel2, #wheel4, #wheel6{
+    grid-column: span 2;
+}
+
+.map_buttons > button{
+    margin-bottom: 10px;
+    border-radius: 4px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 16px;
+    background: #a7d6ff;
+    border: none;
+    padding: 2px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.map_buttons{
+    text-align: center;
+}

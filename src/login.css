@@ -1,0 +1,107 @@
+.logo_for_login > img{
+    height: 60px;
+    
+}
+
+.login{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 3.5rem;
+    padding-top:7.5rem;
+    
+}
+
+
+.login_text{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.login_background > img{
+    position: absolute;
+}
+
+.somnath{
+    transform: translate(912px, 101px);
+    z-index: 2;
+}
+
+.sardar{
+    transform: translate(1217px, -2px);
+    z-index: 3;
+
+}
+
+.sidi{
+    transform: translate(468px, 328px);
+    height: 150px;
+    z-index: 1;
+}
+
+.konark{
+    transform: translate(0px, 176px);
+
+}
+
+.garba{
+    transform: translate(768px, 204px);
+    height: 274px;
+    z-index: 4;
+}
+
+.login_box{
+    border-radius: 20px;
+    transform: translate(530px, -196px);
+    padding: 20px 80px;
+    border: 2px solid black;
+    position: absolute;
+}
+
+.login_input{
+    padding: 5px 15px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.space{
+    width: 100%;
+    height: 229px;
+}
+
+.garba2{
+    transform: translate(377px, 203px);
+}
+
+.sursagar{
+    transform: translate(-254px, 151px);
+
+}
+
+.logo_for_login{
+    text-align: center;
+}
+
+.malkhana_text{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.malkhana_text1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: large;
+}
+.key_login{
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+.submit_login{
+    margin-top: 12px;
+    cursor: pointer;
+    background: black;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 5px 18px;
+}

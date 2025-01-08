@@ -1,0 +1,44 @@
+.create_item_form, .add_vehicle{
+    font-family: 'Open Sans';
+}
+
+.form_item > p{
+    margin: 0px;
+    min-width: 180px;
+}
+
+.form_item > input{
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.form_item > select{
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}
+
+.form_item{
+    display: flex;
+}
+
+.form_details_text{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.item_submit_button{
+    margin-top: 20px;
+    padding: 6px 20px;
+    border: none;
+    font-size: 19px;
+    color: aliceblue;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+

@@ -1,0 +1,9 @@
+.main{
+    display: flex;
+}
+
+.working{
+    width: 1500px;
+    background-color: #faf7f1;
+    padding: 15px 30px;
+}

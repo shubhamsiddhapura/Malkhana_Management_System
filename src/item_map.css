@@ -1,0 +1,137 @@
+.grid_container_1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid_container_1 > div{
+    background-color: rgba(249, 203, 203, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.left_side{
+    display: flex;
+}
+
+.grid_container_2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.grid_container_2 > div{
+    background-color: rgba(246, 240, 183, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.map_area{
+    display: flex;
+}
+
+.grid_container_3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid_container_3 > div{
+    background-color: rgba(193, 246, 183, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#g1{
+    grid-column: span 3;
+}
+
+#c1, #c2{
+    height: 10.4%;
+    background-color: rgba(193, 246, 183, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 190px 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.right_side{
+    display: flex;
+}
+
+.fl{
+    background-color: rgb(255, 143, 143) !important;
+}
+
+.et{
+    background-color: rgb(173, 245, 151) !important;
+}
+
+.pt{
+    background-color: rgb(247, 209, 138) !important;
+}
+
+.map_area > div{
+    margin-left: 30px;
+}
+
+.grid_container_7{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+}
+
+.grid_container_7 > div{
+    height: 120px;
+    background-color: rgba(193, 246, 183, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#parking_space{
+    height: 30px;
+    grid-column: span 10;
+}
+
+.grid_container_8{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid_container_8 > div{
+    height: 150px;
+    background-color: rgba(193, 246, 183, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+    width: 75px;
+}
+
+.grid_container_9{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.map_vehicle_main{
+    margin-left: 111px;
+    width: 1000px;
+}
+
+.grid_container_9 > div{
+    width: 113px;
+    height: 150px;
+    background-color: rgba(193, 246, 183, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.bottom{
+    display: flex;
+}
